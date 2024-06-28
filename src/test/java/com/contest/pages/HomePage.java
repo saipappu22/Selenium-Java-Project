@@ -2,13 +2,12 @@ package com.contest.pages;
 
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
-    private static WebDriver driver;
+public class HomePage extends BasePage {
 
     HomePage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     // Add methods here
-    
+
 }

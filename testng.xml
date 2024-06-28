@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+    <listeners>
+        <listener class-name="" />
+    </listeners>
+    <test name="PackageLevelTests">
+        <packages>
+            <package name="" />
+        </packages>
+    </test>
+</suite>

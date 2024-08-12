@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite1">
     <listeners>
-        <listener class-name="" />
+        <listener class-name="com.contest.tests.ExtentReportListeners" />
     </listeners>
-    <test name="PackageLevelTests">
-        <packages>
-            <package name="" />
-        </packages>
+    <test name="ClassLevelTests">
+        <classes>
+            <class name="com.contest.tests.TelecomProjectTests" />
+        </classes>
     </test>
 </suite>
